@@ -1,6 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Lora:400,400i,700|Raleway:300,600,700,900';
 @import 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
 @import url('https://fonts.googleapis.com/css?family=Cormorant+SC|IM+Fell+French+Canon');
+
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 /*Global Settings*/
 body{
 	font-family: 'IM Fell French Canon', serif;
@@ -374,14 +377,20 @@ section{
 	/*text-transform: none;*/
 	display: table-cell;
 	vertical-align: middle;
+
 }
 .intro-name {
-	text-decoration-line: underline;
-	letter-spacing: 4px;
+	/*text-decoration: none !important;*/
+	text-transform: none;
+	font-family: 'Cutive Mono', monospace;
+	/*font-family: 'Zilla Slab Highlight', cursive;*/
+	/*letter-spacing: 12px !important;*/
 	font-size: 8vw;
+
 
 }
 .intro-sub {
+	font-family: 'Cutive Mono', monospace;
 	font-size: 5vw;
 }
 .header h1{
