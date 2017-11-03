@@ -599,6 +599,7 @@ section{
 }
 .techIcons {
 	height: 100px;
+	max-width: 80vw;
 	margin: 30px;
 }
 
