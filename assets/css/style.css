@@ -617,6 +617,7 @@ section{
   min-height: 100%;
   padding: 5% 0;
   text-align: center;
+  z-index: 999;
 }
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
@@ -646,6 +647,7 @@ section{
   top: 25px;
   right: 25px;
   cursor: pointer;
+  z-index: 1000;
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
