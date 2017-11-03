@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 /*Global Settings*/
 body{
-	font-family: 'IM Fell French Canon', serif;
+	font-family: 'Cutive Mono', monospace;
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Cormorant SC', serif;
@@ -615,7 +615,7 @@ section{
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 5% 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
