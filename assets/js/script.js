@@ -1,6 +1,10 @@
+
+
+
 $(document).ready(function() {
- 	
- 	$(window).scroll(function() {    
+
+
+ 	$(window).scroll(function() {
 	    var scroll = $(window).scrollTop();
 
 	    if (scroll >= 569) {
@@ -14,7 +18,7 @@ $(document).ready(function() {
 	// Smooth Scroll
 
 		$('a[href*="#"]:not([href="#"])').click(function() {
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 		        || location.hostname == this.hostname) {
 
 		        var target = $(this.hash);
