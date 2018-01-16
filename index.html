@@ -27,7 +27,13 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
+    <style>
+    img:not([src]) {
+			visibility: hidden;
+		}
+   </style>
     <body>
+
         <div id="menu-item" class="menu-item hide-menu">
             <div class="container">
                 <ul>
@@ -103,23 +109,23 @@
                     <h2 class="title">Technical Skills</h2>
                     <div class="row">
                       <div class="col-md-12">
-                          <img class="techIcons" src="assets/images/icons/html5.png" alt="html5" />
-                          <img class="techIcons" src="assets/images/icons/css3.png" alt="css3" />
-                          <img class="techIcons" src="assets/images/icons/js.png" alt="js" />
-                          <img class="techIcons" src="assets/images/icons/jquery.png" alt="jquery" />
-                          <img class="techIcons" src="assets/images/icons/react.png" alt="react" />
-                          <img class="techIcons" src="assets/images/icons/redux.png" alt="redux" />
-                          <img class="techIcons" src="assets/images/icons/node_js.png" alt="node_js" />
-                          <img class="techIcons" src="assets/images/icons/bootstrap.png" alt="boostrap" />
-                          <img class="techIcons" src="assets/images/icons/java.png" alt="java" />
-                          <img class="techIcons" src="assets/images/icons/ajax.png" alt="ajax" />
-                          <img class="techIcons" src="assets/images/icons/chrome.png" alt="chrome" />
-                          <img class="techIcons" src="assets/images/icons/firefox.jpg" alt="firefox" />
-                          <img class="techIcons" src="assets/images/icons/safari.png" alt="safari" />
-                          <img class="techIcons" src="assets/images/icons/mysql.png" alt="mysql" />
-                          <img class="techIcons" src="assets/images/icons/mongodb.png" alt="mongodb" />
-                          <img class="techIcons" src="assets/images/icons/firebase.png" alt="firebase" />
-                          <img class="techIcons" src="assets/images/icons/socketio.png" alt="socketio" />
+                          <img class="techIcons" data-src="assets/images/icons/html5.png"  />
+                          <img class="techIcons" data-src="assets/images/icons/css3.png" alt="css3" />
+                          <img class="techIcons" data-src="assets/images/icons/js.png" alt="js" />
+                          <img class="techIcons" data-src="assets/images/icons/jquery.png" alt="jquery" />
+                          <img class="techIcons" data-src="assets/images/icons/react.png" alt="react" />
+                          <img class="techIcons" data-src="assets/images/icons/redux.png" alt="redux" />
+                          <img class="techIcons" data-src="assets/images/icons/node_js.png" alt="node_js" />
+                          <img class="techIcons" data-src="assets/images/icons/bootstrap.png" alt="boostrap" />
+                          <img class="techIcons" data-src="assets/images/icons/java.png" alt="java" />
+                          <img class="techIcons" data-src="assets/images/icons/ajax.png" alt="ajax" />
+                          <img class="techIcons" data-src="assets/images/icons/chrome.png" alt="chrome" />
+                          <img class="techIcons" data-src="assets/images/icons/firefox.jpg" alt="firefox" />
+                          <img class="techIcons" data-src="assets/images/icons/safari.png" alt="safari" />
+                          <img class="techIcons" data-src="assets/images/icons/mysql.png" alt="mysql" />
+                          <img class="techIcons" data-src="assets/images/icons/mongodb.png" alt="mongodb" />
+                          <img class="techIcons" data-src="assets/images/icons/firebase.png" alt="firebase" />
+                          <img class="techIcons" data-src="assets/images/icons/socketio.png" alt="socketio" />
                         </div>
 
                 </div>
@@ -137,7 +143,7 @@
                        <!-- /////////0////////// -->
                         <div class="col-md-4 col-sm-6 portfolio-item">
                             <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal0">
-                                <img src="assets/images/portfolio/codeflo_thumb.jpg" class="img-responsive" alt="">
+                                <img data-src="assets/images/portfolio/codeflo_thumb.jpg" class="img-responsive" alt="">
                             </a>
                             <div class="portfolio-caption">
                                 <h4>CodeFlo</h4>
@@ -150,7 +156,7 @@
                         <!-- /////////1////////// -->
                         <div class="col-md-4 col-sm-6 portfolio-item">
                             <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1">
-                              <img src="assets/images/portfolio/sketchthat_index.jpg" class="img-responsive" alt="">
+                              <img data-src="assets/images/portfolio/sketchthat_index.jpg" class="img-responsive" alt="">
                             </a>
                           <div class="portfolio-caption">
                               <h4>Sketch That</h4>
@@ -164,7 +170,7 @@
                         <!-- /////////3////////// -->
                         <div class="col-md-4 col-sm-6 portfolio-item">
                            <a href="#" class="portfolio-link" data-toggle="modal" data-target='#portfolioModal3'>
-                              <img src="assets/images/portfolio/movieapp_thumb.jpg" class="img-responsive" alt="" />
+                              <img data-src="assets/images/portfolio/movieapp_thumb.jpg" class="img-responsive" alt="" />
                           </a>
                           <div class="portfolio-caption">
                               <h4>MovieApp(renovating)</h4>
@@ -179,7 +185,7 @@
                         <div class="col-md-4 col-sm-6 portfolio-item">
                             <a href="#" class="portfolio-link" data-toggle="modal" data-target='#portfolioModal2'>
 
-                              <img src="assets/images/portfolio/mybooklibrary_book.jpg" class="img-responsive" alt="">
+                              <img data-src="assets/images/portfolio/mybooklibrary_book.jpg" class="img-responsive" alt="">
                             </a>
                             <div class="portfolio-caption">
                                 <h4>MyBookLibrary</h4>
@@ -514,5 +520,9 @@
         <script src="assets/js/firebase.js"></script>
         <script src="assets/js/embedded.js"></script>
         <script src="assets/js/script.js"></script>
+        <script src="assets/js/lazyload.min.js"></script>
+        <script>
+            new LazyLoad();
+        </script>
     </body>
 </html>
