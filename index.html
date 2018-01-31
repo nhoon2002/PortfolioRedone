@@ -9,15 +9,17 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet"> -->
 
-        <link href="assets/css/owl.carousel.css" rel="stylesheet">
-        <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+        <!-- <link href="assets/css/owl.theme.default.min.css" rel="stylesheet"> -->
 
-        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
 
         <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/embedded.css" rel="stylesheet">
+        <!-- <link href="assets/css/55b73bf748.css" rel="stylesheet"> -->
 
 
         <!--[if lt IE 9]>
@@ -25,7 +27,13 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
+    <style>
+    /* img:not([src]) {
+			visibility: hidden;
+		} */
+   </style>
     <body>
+
         <div id="menu-item" class="menu-item hide-menu">
             <div class="container">
                 <ul>
@@ -101,23 +109,23 @@
                     <h2 class="title">Technical Skills</h2>
                     <div class="row">
                       <div class="col-md-12">
-                          <img class="techIcons" src="assets/images/icons/html5.png" alt="html5" />
-                          <img class="techIcons" src="assets/images/icons/css3.png" alt="css3" />
-                          <img class="techIcons" src="assets/images/icons/js.png" alt="js" />
-                          <img class="techIcons" src="assets/images/icons/jquery.png" alt="jquery" />
-                          <img class="techIcons" src="assets/images/icons/react.png" alt="react" />
-                          <img class="techIcons" src="assets/images/icons/redux.png" alt="redux" />
-                          <img class="techIcons" src="assets/images/icons/node_js.png" alt="node_js" />
-                          <img class="techIcons" src="assets/images/icons/bootstrap.png" alt="boostrap" />
-                          <img class="techIcons" src="assets/images/icons/java.png" alt="java" />
-                          <img class="techIcons" src="assets/images/icons/ajax.png" alt="ajax" />
-                          <img class="techIcons" src="assets/images/icons/chrome.png" alt="chrome" />
-                          <img class="techIcons" src="assets/images/icons/firefox.png" alt="firefox" />
-                          <img class="techIcons" src="assets/images/icons/safari.png" alt="safari" />
-                          <img class="techIcons" src="assets/images/icons/mysql.png" alt="mysql" />
-                          <img class="techIcons" src="assets/images/icons/mongodb.png" alt="mongodb" />
-                          <img class="techIcons" src="assets/images/icons/firebase.png" alt="firebase" />
-                          <img class="techIcons" src="assets/images/icons/socketio.png" alt="socketio" />
+                          <img class="techIcons" data-src="assets/images/icons/html5.png"  />
+                          <img class="techIcons" data-src="assets/images/icons/css3.png" alt="css3" />
+                          <img class="techIcons" data-src="assets/images/icons/js.png" alt="js" />
+                          <img class="techIcons" data-src="assets/images/icons/jquery.png" alt="jquery" />
+                          <img class="techIcons" data-src="assets/images/icons/react.png" alt="react" />
+                          <img class="techIcons" data-src="assets/images/icons/redux.png" alt="redux" />
+                          <img class="techIcons" data-src="assets/images/icons/node_js.png" alt="node_js" />
+                          <img class="techIcons" data-src="assets/images/icons/bootstrap.png" alt="boostrap" />
+                          <img class="techIcons" data-src="assets/images/icons/java.png" alt="java" />
+                          <img class="techIcons" data-src="assets/images/icons/ajax.png" alt="ajax" />
+                          <img class="techIcons" data-src="assets/images/icons/chrome.png" alt="chrome" />
+                          <img class="techIcons" data-src="assets/images/icons/firefox.jpg" alt="firefox" />
+                          <img class="techIcons" data-src="assets/images/icons/safari.png" alt="safari" />
+                          <img class="techIcons" data-src="assets/images/icons/mysql.png" alt="mysql" />
+                          <img class="techIcons" data-src="assets/images/icons/mongodb.png" alt="mongodb" />
+                          <img class="techIcons" data-src="assets/images/icons/firebase.png" alt="firebase" />
+                          <img class="techIcons" data-src="assets/images/icons/socketio.png" alt="socketio" />
                         </div>
 
                 </div>
@@ -132,10 +140,24 @@
                         </div>
                     </div>
                     <div class="row portfolio-item-holder">
+                       <!-- /////////3////////// -->
+                       <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a href="#" class="portfolio-link" data-toggle="modal" data-target='#portfolioModal0'>
+                             <img data-src="assets/images/portfolio/movieapp_thumb3.jpg" class="img-responsive" alt="" />
+                          </a>
+                          <div class="portfolio-caption">
+                             <h4>MovieApp</h4>
+                          </div>
+                          <div class="portfolio-subheading">
+                             <p class="text-muted">Social App for Movie Lovers</p>
+                          </div>
+
+
+                       </div>
                        <!-- /////////0////////// -->
                         <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal0">
-                                <img src="assets/images/portfolio/codeflo_thumb.jpg" class="img-responsive" alt="">
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1">
+                                <img data-src="assets/images/portfolio/codeflo_thumb.jpg" class="img-responsive" alt="">
                             </a>
                             <div class="portfolio-caption">
                                 <h4>CodeFlo</h4>
@@ -147,8 +169,8 @@
 
                         <!-- /////////1////////// -->
                         <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1">
-                              <img src="assets/images/portfolio/sketchthat_index.jpg" class="img-responsive" alt="">
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal2">
+                              <img data-src="assets/images/portfolio/sketchthat_index.jpg" class="img-responsive" alt="">
                             </a>
                           <div class="portfolio-caption">
                               <h4>Sketch That</h4>
@@ -159,25 +181,11 @@
                       </div>
 
 
-                        <!-- /////////3////////// -->
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                           <a href="#" class="portfolio-link" data-toggle="modal" data-target='#portfolioModal3'>
-                              <img src="assets/images/portfolio/movieapp_thumb.jpg" class="img-responsive" alt="" />
-                          </a>
-                          <div class="portfolio-caption">
-                              <h4>MovieApp(renovating)</h4>
-                          </div>
-                          <div class="portfolio-subheading">
-                              <p class="text-muted">Fun App for Movie Lovers</p>
-                          </div>
-
-
-                       </div>
                         <!-- /////////2////////// -->
                         <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#" class="portfolio-link" data-toggle="modal" data-target='#portfolioModal2'>
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target='#portfolioModal3'>
 
-                              <img src="assets/images/portfolio/mybooklibrary_book.jpg" class="img-responsive" alt="">
+                              <img data-src="assets/images/portfolio/mybooklibrary_book.jpg" class="img-responsive" alt="">
                             </a>
                             <div class="portfolio-caption">
                                 <h4>MyBookLibrary</h4>
@@ -343,7 +351,7 @@
             <!-- Use the modals below to showcase details about your portfolio projects! -->
 
             <!-- Portfolio Modal 0 -->
-            <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="close-modal" data-dismiss="modal">
@@ -368,8 +376,11 @@
                                             </h3>
                                         </p>
 
-                                        <iframe src="http://www.youtube.com/embed/EimDnftDJKw?cc_load_policy=1" width="100%" height="315" frameborder="0" allowfullscreen>
-                                        </iframe>
+                                        <!-- <iframe src="http://www.youtube.com/embed/EimDnftDJKw?cc_load_policy=1" width="100%" height="315" frameborder="0" allowfullscreen>
+                                        </iframe> -->
+                                        <div class="youtube-player" data-id='EimDnftDJKw'>
+
+                                        </div>
 
                                         <p>CodeFlo is a full-stack social networking application, built from scratch. This project was an ambitious attempt at a MERN stack social networking service, complete with rich features such as real-time chat, team builder, todo list, etc. My goal was to build a platform for all individuals who come across a great app idea, but do not have the man-power or expertise to make it come to fruition. CodeFlo hopes to make it easier for ideas to flow and keep flo'ing so that we'll keep cultivating cool new apps to shake up the world!</p>
 
@@ -383,7 +394,7 @@
                 </div>
             </div>
             <!-- Portfolio Modal 1 -->
-            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="close-modal" data-dismiss="modal">
@@ -403,8 +414,11 @@
                                         <h2>Sketch That</h2>
                                         <p class="item-intro text-muted">Multiplayer, real-time, real fun.</p>
 
-                                        <iframe src="http://www.youtube.com/embed/8oxpDV0WSTc?cc_load_policy=1" width="100%" height="315" frameborder="0" allowfullscreen>
-                                        </iframe>
+                                        <!-- <iframe src="http://www.youtube.com/embed/8oxpDV0WSTc?cc_load_policy=1" width="100%" height="315" frameborder="0" allowfullscreen>
+                                        </iframe> -->
+                                        <div class="youtube-player" data-id='8oxpDV0WSTc'></div>
+
+
                                         <br/>
 
                                         <p>Using the power of Google Firebase, this project was an ambitious attempt at integrating web sockets, canvas, user authentication, and a functional chat system. One person gets to draw something, which the other player has to guess correctly in order to earn points to win the round.</p>
@@ -420,7 +434,7 @@
             </div>
 
             <!-- Portfolio Modal 2 -->
-            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="close-modal" data-dismiss="modal">
@@ -459,7 +473,7 @@
 
 
             <!-- Portfolio Modal 3 -->
-            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
               <div class="modal-dialog">
                  <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal">
@@ -479,8 +493,9 @@
                                 <h2>MovieLibrary</h2>
                                 <p class="item-intro text-muted">Movie lovers, rejoice. Find out all you wish to know about the hottest movies, simply by searching for a keyword.</p>
 
-                                <iframe src="http://www.youtube.com/embed/OSH4AAgu3dA?cc_load_policy=1" width="100%" height="315" frameborder="0" allowfullscreen>
-                                </iframe>
+                                <!-- <iframe src="http://www.youtube.com/embed/OSH4AAgu3dA?cc_load_policy=1" width="100%" height="315" frameborder="0" allowfullscreen>
+                                </iframe> -->
+                                <div class="youtube-player" data-id='OSH4AAgu3dA'></div>
 
                                 <p>MovieLibrary is a social networking app for movie lovers. Based on MERN stack with Redux and Webpack, this app allows users to search for any movie in the database of all movies, see the cover posters, and (in future update) build a shelf of your favorite films.</p>
                                 <p>
@@ -496,13 +511,25 @@
               </div>
            </div>
         </div>
-        <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-        <script src="assets/js/jquery-3.1.1.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="https://use.fontawesome.com/55b73bf748.js"></script>
-        <script src="assets/js/jquery.magnific-popup.js"></script>
-        <script src="assets/js/firebase.js"></script>
+        <!-- <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script> -->
+        <!-- <script src="https://use.fontawesome.com/55b73bf748.js"></script> -->
+        <!-- <script src="assets/js/firebase.js"></script> -->
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+          crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js">
+        </script>
+        <script src="assets/js/embedded.js"></script>
         <script src="assets/js/script.js"></script>
+        <script src="assets/js/lazyload.min.js"></script>
+        <script>
+            new LazyLoad();
+        </script>
     </body>
 </html>
